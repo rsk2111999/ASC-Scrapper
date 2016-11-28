@@ -1,5 +1,4 @@
 import getpass
-import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -22,8 +21,11 @@ elem_password.send_keys(password,Keys.RETURN)
 
 tables_list = driver.find_elements_by_tag_name('table')
 cells=tables_list[5].find_elements_by_tag_name('td')
-for cell in cells:
- print cell.text
+
+length=len(cells)-6
+for i in range(0,length+1,6):
+ print cells[i].text + ' ' + cells[i+2].text + ' ' + cells[i+4].text
+
 
 logout_elem=driver.find_element_by_link_text('Logout')
 logout_elem.click()
