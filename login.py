@@ -9,7 +9,7 @@ password=getpass.getpass('Enter your LDAP Password ')
 #Starts Firefox on your machine
 driver = webdriver.Firefox()
 
-#To move the browser to a non-viewable are so that the user isn't disturbed
+#To move the browser to a non-viewable area so that the user isn't disturbed
 driver.set_window_size(100,100)
 driver.set_window_position( 2000,2000)
 driver.get("https://portal.iitb.ac.in/asc/Login")
