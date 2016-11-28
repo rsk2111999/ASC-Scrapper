@@ -3,7 +3,7 @@ import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-user_id=raw_input('Enter your LDAP ')
+user_id=raw_input('Enter your LDAP ID ')
 password=getpass.getpass('Enter your LDAP Password ')
 
 #Starts Firefox on your machine
