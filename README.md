@@ -1,6 +1,6 @@
 # ASC-Scraper
-A scrapper for checking grades on asc for IITB students
-Requirements: 
+A scrapper for checking grades on asc for IITB students  
+Requirements:  
 1)Selenium 2.xx (Using Selenium 3.xx will require some modifications)
 ```
 pip install selenium==2.33
