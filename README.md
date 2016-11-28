@@ -4,7 +4,7 @@ It prints your Course name and Grades in the Terminal
 Requirements:  
 1)Selenium 2.xx (Using Selenium 3.xx will require some modifications)
 ```
-pip install selenium==2.33
+pip install selenium==2.53
 ```
 2)An old version of firefox compatible with Selenium
 ```
