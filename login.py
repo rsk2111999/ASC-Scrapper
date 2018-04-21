@@ -24,7 +24,7 @@ cells=tables_list[5].find_elements_by_tag_name('td')
 
 length=len(cells)-6
 for i in range(0,length+1,6):
- print cells[i].text + ' ' + cells[i+2].text + ' ' + cells[i+4].text
+    print cells[i].text + ' ' + cells[i+2].text + ' ' + cells[i+4].text
 
 
 logout_elem=driver.find_element_by_link_text('Logout')
